@@ -60,6 +60,7 @@ module PayPal
         params = collect(
           :locale,
           :amount,
+          :initial_amount,
           :return_url,
           :cancel_url,
           :currency,
